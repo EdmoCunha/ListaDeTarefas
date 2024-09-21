@@ -1,0 +1,244 @@
+ /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-task input, .add-task select, .add-task button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tasks-section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+li.alta {
+    background-color: #ffcccb;
+}
+
+li.media {
+    background-color: #ffffcc;
+}
+
+li.baixa {
+    background-color: #ccffcc;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#legend{
+    text-align: left;
+    border: 1px solid black;
+    width: 62%;
+    margin: 0 auto;
+    padding: 0 5px 5px 5px;
+    height: 100px;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+.red{
+    background-color: #ffcccb;
+}
+.yellow{
+    background-color: #ffffcc;
+}
+.green{
+    background-color: #ccffcc;
+}
+.botton{
+    background-color: green;
+    color: white;
+}
+.write{
+    text-align: left;
+    
+    
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./amanhaetarde.jpg); */
+    background-image: url(./img2.jpg)
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url(./img2.jpg); */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.add-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.add-task input, .add-task select, .add-task button {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.tasks-section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+li.alta {
+    background-color: #ffcccb;
+}
+
+li.media {
+    background-color: #ffffcc;
+}
+
+li.baixa {
+    background-color: #ccffcc;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#legend {
+    text-align: left;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.legend-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.red {
+    background-color: #ffcccb;
+}
+
+.yellow {
+    background-color: #ffffcc;
+}
+
+.green {
+    background-color: #ccffcc;
+}
+
+.botton {
+    background-color: green;
+    color: white;
+}
+
+.write {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .add-task {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .add-task input, .add-task select, .add-task button {
+        width: auto;
+        margin: 0 10px;
+        margin-bottom: 0;
+    }
+
+    #legend {
+        text-align: center;
+    }
+
+    .legend-container {
+        justify-content: center;
+    }
+}
+
